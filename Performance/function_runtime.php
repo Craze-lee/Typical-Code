@@ -1,7 +1,7 @@
 <?php
 /**
  * 计算函数执行时间
- * /
+ */
 
 //创建无意义长字符串
 $long_str = uniqid(php_uname('a'),true);
