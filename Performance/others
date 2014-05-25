@@ -1,0 +1,12 @@
+1. 计算程序执行时间：
+    使用PEAR BenchMark模块
+
+
+2. 通过排错扩展进行代码剖析：
+    Advanced PHP Debugger（APD）或Xdebug，可以对文件进行跟踪分析，得到PHP脚本在执行过程中如何分配时间的详细信息。
+
+3. 利用Apache自带的ab工具进行压力测试：
+    % /usr/bin/ab -n 1000 -c 100 k www.example.com/test.php    以100次并发请求为一组，返回基于1000次对指定网站的测试
+
+4. 使用PHP加速器，增强PHP应用程序的性能：
+    三个流行的：Alternative PHP Cache(APC) 、eAccelerator和ionCube PHP Accelerator(PHPA)
